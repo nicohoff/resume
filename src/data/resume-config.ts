@@ -105,6 +105,9 @@ export const resumeConfig: ResumeConfig = {
       techs: ['Ignition', 'PcVue', 'SQL Server', 'Python'],
       isHighlighted: true,
       details: {
+        context: {
+          fr: 'Développement de solutions SCADA pour des installations industrielles multi-sites.',
+        },
         tasks: {
           fr: [
             'Développement de supervisions Ignition (Vision et Perspective) et PcVue',
@@ -124,13 +127,16 @@ export const resumeConfig: ResumeConfig = {
       role: { fr: 'Automaticien' },
       period: { fr: 'Octobre 2018 - Mai 2020' },
       description: {
-        fr: 'Développement et évolution de systèmes automatisés pour applications cryogéniques.',
+        fr: 'Développement et évolution de systèmes automatisés pour des applications cryogéniques.',
       },
       techs: ['Siemens TIA Portal', 'WinCC Advanced'],
       details: {
+        context: {
+          fr: 'Projets industriels pour le refroidissement du GNL sur méthaniers.',
+        },
         tasks: {
           fr: [
-            'Systèmes Turbo-Brayton pour le refroidissement du GNL sur méthaniers',
+            'Systèmes Turbo-Brayton pour le refroidissement du GNL',
             'Évolution des programmes automates et IHM',
             'Tests électriques de skids',
             'Assistance aux mises en service à quai et en mer',
@@ -139,6 +145,9 @@ export const resumeConfig: ResumeConfig = {
         },
         training: {
           fr: ['Certification ISM-ATEX niveau 2 électrique'],
+        },
+        env: {
+          fr: 'Siemens TIA Portal / WinCC Advanced',
         },
       },
     },
@@ -157,6 +166,9 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'ALD France' },
       role: { fr: 'Automaticien' },
       period: { fr: 'Novembre 2015 - Avril 2016' },
+      description: {
+        fr: 'Développement et maintenance de solutions d\'automatisation pour fours de traitement thermique.',
+      },
       techs: ['Siemens Step 7', 'Schneider Unity', 'Wonderware InTouch'],
     },
     {
@@ -164,6 +176,9 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'MSK Covertech Group' },
       role: { fr: 'Automaticien' },
       period: { fr: 'Février 2015 - Octobre 2015' },
+      description: {
+        fr: 'Développement et mise en service de machines industrielles de suremballage.',
+      },
       techs: ['Schneider Unity'],
     },
   ],
@@ -185,12 +200,8 @@ export const resumeConfig: ResumeConfig = {
     },
   ],
   hobbies: [
-    {
-      title: { fr: 'Montagne & Nature' },
-    },
-    {
-      title: { fr: 'Photographie' },
-    },
+    { title: { fr: 'Montagne & Nature' } },
+    { title: { fr: 'Photographie' } },
   ],
   theme: {
     preset: 'ocean',
@@ -205,6 +216,7 @@ export const resumeConfig: ResumeConfig = {
     },
     experience: {
       mainTasks: { fr: 'Missions principales :' },
+      moreTasks: { fr: 'Autres missions...' },
       training: { fr: 'Formations :' },
       techEnv: { fr: 'Environnement technique :' },
       technologies: { fr: 'Technologies' },
