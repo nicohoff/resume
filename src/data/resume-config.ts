@@ -57,7 +57,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'badges',
       items: [
         { name: 'Siemens TIA Portal' },
-        { name: 'Schneider Control Expert' }
+        { name: 'Schneider Control Expert' },
       ],
     },
     {
