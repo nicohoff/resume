@@ -8,7 +8,7 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Développeur SCADA / Automaticien',
     },
     subtitle: {
-      fr: '11 ans d'expérience dans l'industrie - Certifié Ignition Gold',
+      fr: '11 ans d\'expérience dans l\'industrie - Certifié Ignition Gold',
     },
     location: 'Chambéry / Albertville',
   },
