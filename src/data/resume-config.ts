@@ -233,6 +233,7 @@ export const resumeConfig: ResumeConfig = {
       description: {
         fr: 'Enseignement en collège et lycée dans l\'académie de Grenoble. Recrutement après réussite au concours du CAPES',
       },
+      techs: [],
     },
     {
       id: 'provence',
@@ -243,6 +244,7 @@ export const resumeConfig: ResumeConfig = {
       description: {
         fr: 'Gestion du rayon langues. Conseils dans les rayons sciences humaines / universitaire',
       },
+      techs: [],
     }
   ],
   education: [
