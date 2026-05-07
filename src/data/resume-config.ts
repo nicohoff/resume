@@ -56,8 +56,8 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Automatismes industriels' },
       type: 'badges',
       items: [
-        { name: 'TIA Portal' },
-        { name: 'Control Expert' },
+        { name: 'Siemens' },
+        { name: 'Schneider' },
       ],
     },
     {
@@ -164,10 +164,10 @@ export const resumeConfig: ResumeConfig = {
       description: {
         fr: 'Maintenance logicielle et nouveaux projets en automatismes pour le CERN.',
       },
-      techs: ['PcVue', 'Control Expert', 'Schneider PL7', 'Siemens S7', 'Wago' ],
+      techs: ['PcVue', 'Schneider Unity', 'Schneider PL7', 'Siemens S7', 'Wago' ],
       details: {
         context: {
-          fr: 'Intervention sur deux systèmes principalement : CERN Safety Alarm Monitoring (CSAM): supervision gérant tous les sites du CERN à destination du Centre de contrôle et du service de secours | Cooling & Ventilation : refroidissement des accélérateurs PS et SPS.',
+          fr: 'Intervention sur deux systèmes principalement : CERN Safety Alarm Monitoring (CSAM) : supervision gérant tous les sites du CERN à destination du Centre de contrôle et du service de secours | Cooling & Ventilation : refroidissement des accélérateurs PS et SPS.',
         },
         tasks: {
           fr: [
@@ -194,7 +194,7 @@ export const resumeConfig: ResumeConfig = {
       description: {
         fr: 'Fours de traitement thermique.',
       },
-      techs: ['Siemens Step 7', 'Schneider Unity', 'Wonderware InTouch'],
+      techs: ['Control Expert', 'Siemens Step 7', 'Wonderware InTouch'],
     },
     {
       id: 'msk',
