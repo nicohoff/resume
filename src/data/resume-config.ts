@@ -88,6 +88,17 @@ export const resumeConfig: ResumeConfig = {
         },
       ],
     },
+    {
+    title: { fr: 'Certifications' },
+    type: 'text',
+    items: [
+      {
+        name: {
+          fr: 'Communication, adaptabilité, curiosité, documentation technique',
+        },
+      },
+    ],
+  },
   ],
   experiences: [
     {
@@ -95,9 +106,9 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Bouygues Energies & Services' },
       role: { fr: 'Développeur SCADA' },
       type: { fr: 'CDI' },
-      period: { fr: 'Jan. 2021 - Aujourd\'hui' },
+      period: { fr: 'Depuis 2021 · 5 ans},
       description: {
-        fr: 'Systèmes SCADA de gestion d\'infrastructures : tunnels routiers / autoroutiers, GTB.',
+        fr: 'Gestion d\'infrastructures : tunnels routiers / autoroutiers, GTB',
       },
       techs: ['Ignition', 'PcVue', 'SQL Server', 'Python'],
       isHighlighted: true,
@@ -116,7 +127,7 @@ export const resumeConfig: ResumeConfig = {
         },
         training: {
           fr: [
-            'Certification Ignition Gold',
+            'SQL (2 jours, 2025), Docker (3 jours, 2024)',
           ],
         },
         env: {
@@ -129,7 +140,7 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Air Liquide' },
       role: { fr: 'Automaticien' },
       type: { fr: 'Presta' },
-      period: { fr: 'Oct. 2018 - Mai 2020' },
+      period: { fr: '2018 - 2020 · 1 an 8 mois' },
       description: {
         fr: 'Systèmes cryogéniques Turbo-Brayton pour la reliquéfaction du GNL sur méthaniers',
       },
@@ -162,17 +173,18 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'CDI' },
       period: { fr: 'Mai 2016 - Sept. 2018' },
       description: {
-        fr: 'Maintenance logicielle et nouveaux projets en automatismes pour le CERN.',
+        fr: 'Maintenance logicielle pour le CERN.',
       },
       techs: ['PcVue', 'Unity Pro', 'PL7 Pro', 'Step 7', 'Wago' ],
       details: {
         context: {
-          fr: 'Intervention sur deux systèmes principalement : CERN Safety Alarm Monitoring (CSAM) : supervision gérant tous les sites du CERN à destination du Centre de contrôle et du service de secours | Cooling & Ventilation : refroidissement des accélérateurs PS et SPS.',
+          fr: 'Intervention sur 2 systèmes : CERN Safety Alarm Monitoring (CSAM) : supervision gérant tous les sites du CERN à destination du Centre de contrôle et du service de secours | Cooling & Ventilation : refroidissement des accélérateurs PS et SPS.',
         },
         tasks: {
           fr: [
             'Développement et maintenance de supervisions PcVue',
             'Développement et maintenance d\'automates Siemens S7, Schneider PL7 et Unity, WAGO',
+            'Gestion de tickets JIRA et astreintes',
             'Tests en plateforme et sur site',
             'Paramétrage de caméras et intégration sur serveur Milestone',
           ],
