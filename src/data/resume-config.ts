@@ -49,7 +49,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Ignition' },
         { name: 'PcVue' },
         { name: 'WinCC Advanced' },
-        { name: 'WInTouch' },
+        { name: 'InTouch' },
       ],
     },
     {
@@ -164,7 +164,7 @@ export const resumeConfig: ResumeConfig = {
       description: {
         fr: 'Maintenance logicielle et nouveaux projets en automatismes pour le CERN.',
       },
-      techs: ['PcVue', 'Schneider Unity', 'Schneider PL7', 'Siemens S7', 'Wago' ],
+      techs: ['PcVue', 'Unity Pro', 'PL7 Pro', 'Step 7', 'Wago' ],
       details: {
         context: {
           fr: 'Intervention sur deux systèmes principalement : CERN Safety Alarm Monitoring (CSAM) : supervision gérant tous les sites du CERN à destination du Centre de contrôle et du service de secours | Cooling & Ventilation : refroidissement des accélérateurs PS et SPS.',
@@ -194,7 +194,7 @@ export const resumeConfig: ResumeConfig = {
       description: {
         fr: 'Fours de traitement thermique.',
       },
-      techs: ['Control Expert', 'Siemens Step 7', 'Wonderware InTouch'],
+      techs: ['Unity Pro', 'Step 7', 'InTouch'],
     },
     {
       id: 'msk',
@@ -205,7 +205,7 @@ export const resumeConfig: ResumeConfig = {
       description: {
         fr: 'Systèmes d\'emballage et de manutention de palettes',
       },
-      techs: ['Control Expert'],
+      techs: ['Unity Pro'],
       details: {
         context: {
         fr: 'Contexte international : France, FAT en Hongrie, MES en France',
@@ -220,7 +220,7 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          fr: 'Schneider Unity / Variateurs SEW et Schneider Altivar',
+          fr: 'Schneider Unity Pro / Variateurs SEW et Schneider Altivar',
         },
       },
     },
