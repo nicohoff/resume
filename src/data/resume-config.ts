@@ -118,6 +118,7 @@ export const resumeConfig: ResumeConfig = {
           fr: [
             'Certification Ignition Gold',
           ],
+        },
         env: {
           fr: 'Ignition / PcVue / SQL Server / Python',
         },
@@ -139,11 +140,11 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           fr: [
-            'Évolution du programme standard automate/IHM, suite aux REX'
-            'Préparation des programmes au niveau projet avant MES'
-            'FAT partie courant faible de skids : automatismes / instrumentation / câblage'
-            'Assistance aux démarreurs / MES à quai ou en mer'
-            'Rédaction / mise à jour de notes techniques et procédures en anglais'
+            'Évolution du programme standard automate/IHM, suite aux REX',
+            'Préparation des programmes au niveau projet avant MES',
+            'FAT partie courant faible de skids : automatismes / instrumentation / câblage',
+            'Assistance aux démarreurs / MES à quai ou en mer',
+            'Rédaction / mise à jour de notes techniques et procédures en anglais',
           ],
         },
         training: {
@@ -170,10 +171,10 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           fr: [
-            'Développement et maintenance de supervisions PcVue'
-            'Développement et maintenance d\'automates Siemens S7, Schneider PL7 et Unity, WAGO'
-            'Tests en plateforme et sur site'
-            'Paramétrage de caméras et intégration sur serveur Milestone'
+            'Développement et maintenance de supervisions PcVue',
+            'Développement et maintenance d\'automates Siemens S7, Schneider PL7 et Unity, WAGO',
+            'Tests en plateforme et sur site',
+            'Paramétrage de caméras et intégration sur serveur Milestone',
           ],
         },
         training: {
@@ -183,7 +184,6 @@ export const resumeConfig: ResumeConfig = {
           fr: 'PcVue / Schneider Unity & PL7 / Siemens S7 / Wago',
         },
       },
-    },
     },
     {
       id: 'ald',
@@ -216,7 +216,7 @@ export const resumeConfig: ResumeConfig = {
             'Paramétrage de variateurs et positionnement par bus',
             'Mise au point de plusieurs machines à l\'usine du groupe en Hongrie',
             'MES de plusieurs projets neufs / SAV en France',
-            'Formation des opérateurs'
+            'Formation des opérateurs',
           ],
         },
         env: {
@@ -225,23 +225,25 @@ export const resumeConfig: ResumeConfig = {
       },
     },
     {
-    id: 'educnat',
-    company: { fr: 'Éducation nationale' },
-    role: { fr: 'Professeur d\'anglais' },
-    type: { fr: 'CDI' },
-    period: { fr: 'Sep. 2010 - Fév. 2013' },
-    description: {
-      fr: 'Enseignement en collège et lycée dans l\'académie de Grenoble. Recrutement après réussite au concours du CAPES',
+      id: 'educnat',
+      company: { fr: 'Éducation nationale' },
+      role: { fr: 'Professeur d\'anglais' },
+      type: { fr: 'CDI' },
+      period: { fr: 'Sep. 2010 - Fév. 2013' },
+      description: {
+        fr: 'Enseignement en collège et lycée dans l\'académie de Grenoble. Recrutement après réussite au concours du CAPES',
+      },
     },
     {
-    id: 'provence',
-    company: { fr: 'Librairie de Provence' },
-    role: { fr: 'Libraire' },
-    type: { fr: 'CDI' },
-    period: { fr: 'Avr. 2007 - Août 2010' },
-    description: {
-      fr: 'Gestion du rayon langues. Conseils dans les rayons sciences humaines / universitaire',
-    },
+      id: 'provence',
+      company: { fr: 'Librairie de Provence' },
+      role: { fr: 'Libraire' },
+      type: { fr: 'CDI' },
+      period: { fr: 'Avr. 2007 - Août 2010' },
+      description: {
+        fr: 'Gestion du rayon langues. Conseils dans les rayons sciences humaines / universitaire',
+      },
+    }
   ],
   education: [
     {
