@@ -8,6 +8,10 @@ const TECH_REGISTRY = {
   // ===== SCADA =====
   'Ignition': { color: '#ffa500' },
   'PcVue': { color: '#be0000' },
+
+  // ===== PLC Automation =====
+  'TIA Portal': { color: '#009999' },
+  'Control Expert': { color: '#3DCD58' },
   
   // ===== Frontend Frameworks =====
   'React': { color: '#61DAFB' },
