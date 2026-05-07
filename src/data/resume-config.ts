@@ -88,17 +88,6 @@ export const resumeConfig: ResumeConfig = {
         },
       ],
     },
-    {
-    title: { fr: 'Certifications' },
-    type: 'text',
-    items: [
-      {
-        name: {
-          fr: 'Communication, adaptabilité, curiosité, documentation technique',
-        },
-      },
-    ],
-  },
   ],
   experiences: [
     {
@@ -106,7 +95,7 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Bouygues Energies & Services' },
       role: { fr: 'Développeur SCADA' },
       type: { fr: 'CDI' },
-      period: { fr: 'Depuis 2021 · 5 ans'},
+      period: { fr: 'Depuis jan. 2021'},
       description: {
         fr: 'Gestion d\'infrastructures : tunnels routiers / autoroutiers, GTB',
       },
@@ -127,7 +116,9 @@ export const resumeConfig: ResumeConfig = {
         },
         training: {
           fr: [
-            'SQL (2 jours, 2025), Docker (3 jours, 2024)',
+            '2026 : certificiation Ignition Gold',
+            '2025 : SQL (2 jours)', 
+            '2024 : Docker (3 jours)',
           ],
         },
         env: {
@@ -140,9 +131,9 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Air Liquide' },
       role: { fr: 'Automaticien' },
       type: { fr: 'Presta' },
-      period: { fr: '2018 - 2020 · 1 an 8 mois' },
+      period: { fr: '2018 - 2020' },
       description: {
-        fr: 'Systèmes cryogéniques Turbo-Brayton pour la reliquéfaction du GNL sur méthaniers',
+        fr: 'Systèmes cryogéniques Turbo-Brayton pour la reliquéfaction du GNL sur méthaniers - Durée : 1 an 8 mois',
       },
       techs: ['TIA Portal', 'WinCC Advanced'],
       details: {
@@ -159,7 +150,7 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         training: {
-          fr: ['Certification ISM-ATEX niveau 2 électrique'],
+          fr: ['2019 : certification ISM-ATEX niveau 2 électrique'],
         },
         env: {
           fr: 'TIA Portal / WinCC Advanced',
@@ -171,9 +162,9 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Assystem' },
       role: { fr: 'Automaticien' },
       type: { fr: 'CDI' },
-      period: { fr: 'Mai 2016 - Sept. 2018' },
+      period: { fr: '2016 - 2018' },
       description: {
-        fr: 'Maintenance logicielle pour le CERN.',
+        fr: 'Maintenance logicielle pour le CERN. Durée 2 ans 5 mois',
       },
       techs: ['PcVue', 'Unity Pro', 'PL7 Pro', 'Step 7', 'Wago' ],
       details: {
@@ -190,7 +181,7 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         training: {
-          fr: ['Radioprotection pour travail en zone contrôlée'],
+          fr: ['2016 : Radioprotection pour travail en zone contrôlée'],
         },
         env: {
           fr: 'PcVue / Schneider Unity & PL7 / Siemens S7 / Wago',
@@ -202,9 +193,9 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'ALD France' },
       role: { fr: 'Automaticien' },
       type: { fr: 'CDD' },
-      period: { fr: 'Nov. 2015 - Avr. 2016' },
+      period: { fr: '2015 - 2016' },
       description: {
-        fr: 'Fours de traitement thermique.',
+        fr: 'Fours de traitement thermique. Durée : 6 mois',
       },
       techs: ['Unity Pro', 'Step 7', 'InTouch'],
     },
@@ -213,9 +204,9 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'MSK Covertech' },
       role: { fr: 'Automaticien' },
       type: { fr: 'Presta' },
-      period: { fr: 'Fév. 2015 - Oct. 2015' },
+      period: { fr: '2015' },
       description: {
-        fr: 'Systèmes d\'emballage et de manutention de palettes',
+        fr: 'Systèmes d\'emballage et de manutention de palettes. Durée : 9 mois',
       },
       techs: ['Unity Pro'],
       details: {
@@ -241,7 +232,7 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Éducation nationale' },
       role: { fr: 'Professeur d\'anglais' },
       type: { fr: 'CDI' },
-      period: { fr: 'Sep. 2010 - Fév. 2013' },
+      period: { fr: '2010 - 2013' },
       description: {
         fr: 'Enseignement en collège et lycée dans l\'académie de Grenoble. Recrutement après réussite au concours du CAPES',
       },
@@ -252,7 +243,7 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Librairie de Provence' },
       role: { fr: 'Libraire' },
       type: { fr: 'CDI' },
-      period: { fr: 'Avr. 2007 - Août 2010' },
+      period: { fr: '2007 - 2010' },
       description: {
         fr: 'Gestion du rayon langues. Conseils dans les rayons sciences humaines / universitaire',
       },
