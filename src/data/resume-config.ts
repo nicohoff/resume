@@ -266,7 +266,7 @@ export const resumeConfig: ResumeConfig = {
     {
       school: { fr: 'Université de Provence' },
       degree: { fr: 'Licence d\'anglais' },
-      period: '2010',
+      period: '2005',
     },
     {
       school: { fr: 'Lycée Fourcade' },
