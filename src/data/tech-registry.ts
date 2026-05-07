@@ -5,6 +5,10 @@
  * To add a custom technology, add it here with its brand color.
  */
 const TECH_REGISTRY = {
+  // ===== SCADA =====
+  'Ignition': { color: '#ffa500' },
+  'PcVue': { color: '#be0000' },
+  
   // ===== Frontend Frameworks =====
   'React': { color: '#61DAFB' },
   'Angular': { color: '#DD0031' },
@@ -95,6 +99,7 @@ const TECH_REGISTRY = {
   'CouchDB': { color: '#E42528' },
   'PlanetScale': { color: '#000000' },
   'Neon': { color: '#00E599' },
+  'SQL Server': { color: '#00a2ed' },
 
   // ===== DevOps & Cloud =====
   'Docker': { color: '#2496ED' },
