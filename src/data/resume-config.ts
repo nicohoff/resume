@@ -164,7 +164,7 @@ export const resumeConfig: ResumeConfig = {
       type: { fr: 'CDI' },
       period: { fr: '2016 - 2018' },
       description: {
-        fr: 'Maintenance logicielle pour le CERN. Durée 2 ans 5 mois',
+        fr: 'Maintenance logicielle pour le CERN. Durée : 2 ans 5 mois',
       },
       techs: ['PcVue', 'Unity Pro', 'PL7 Pro', 'Step 7', 'Wago' ],
       details: {
