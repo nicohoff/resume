@@ -10,8 +10,13 @@ const TECH_REGISTRY = {
   'PcVue': { color: '#be0000' },
 
   // ===== PLC Automation =====
+  'Siemens': { color: '#009999' },
   'TIA Portal': { color: '#009999' },
+  'Step 7': { color: '#009999' },
+  'Schneider': { color: '#3DCD58' },
   'Control Expert': { color: '#3DCD58' },
+  'Unity Pro': { color: '#3DCD58' },
+  'PL7 Pro': { color: '#3DCD58' },
   
   // ===== Frontend Frameworks =====
   'React': { color: '#61DAFB' },
