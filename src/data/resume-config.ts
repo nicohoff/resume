@@ -5,15 +5,15 @@ export const resumeConfig: ResumeConfig = {
     name: 'Nicolas Hoffmann',
     photoBackEmoji: '⚙️',
     title: {
-      fr: 'Développeur SCADA',
+      fr: 'Développeur SCADA / Automaticien',
     },
     subtitle: {
-      fr: 'Automaticien depuis 2015',
+      fr: '11 ans d'expérience dans l'industrie - Certifié Ignition Gold',
     },
-    location: 'Chambéry, France',
+    location: 'Chambéry / Albertville',
   },
   seo: {
-    title: 'Nicolas Hoffmann — Développeur SCADA',
+    title: 'Nicolas Hoffmann — Développeur SCADA / Automaticien',
     description: 'CV interactif de Nicolas Hoffmann, développeur SCADA et automaticien spécialisé en systèmes industriels.',
   },
   languages: {
@@ -57,10 +57,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'badges',
       items: [
         { name: 'Siemens TIA Portal' },
-        { name: 'Siemens S7' },
-        { name: 'Schneider Unity' },
-        { name: 'Schneider PL7' },
-        { name: 'WAGO' },
+        { name: 'Schneider Control Expert' }
       ],
     },
     {
@@ -98,7 +95,7 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Bouygues Energies & Services' },
       role: { fr: 'Développeur SCADA' },
       type: { fr: 'CDI' },
-      period: { fr: 'Janvier 2021 - Aujourd\'hui' },
+      period: { fr: 'Jan. 2021 - Aujourd\'hui' },
       description: {
         fr: 'Développement et maintenance de supervisions SCADA pour des systèmes industriels.',
       },
@@ -125,7 +122,7 @@ export const resumeConfig: ResumeConfig = {
       id: 'airliquide',
       company: { fr: 'Air Liquide' },
       role: { fr: 'Automaticien' },
-      period: { fr: 'Octobre 2018 - Mai 2020' },
+      period: { fr: 'Oct. 2018 - Mai 2020' },
       description: {
         fr: 'Développement et évolution de systèmes automatisés pour des applications cryogéniques.',
       },
@@ -155,7 +152,7 @@ export const resumeConfig: ResumeConfig = {
       id: 'assystem',
       company: { fr: 'Assystem' },
       role: { fr: 'Automaticien' },
-      period: { fr: 'Mai 2016 - Septembre 2018' },
+      period: { fr: 'Mai 2016 - Sept. 2018' },
       description: {
         fr: 'Maintenance logicielle et nouveaux projets en automatismes pour le CERN.',
       },
@@ -165,7 +162,7 @@ export const resumeConfig: ResumeConfig = {
       id: 'ald',
       company: { fr: 'ALD France' },
       role: { fr: 'Automaticien' },
-      period: { fr: 'Novembre 2015 - Avril 2016' },
+      period: { fr: 'Nov. 2015 - Avr. 2016' },
       description: {
         fr: 'Développement et maintenance de solutions d\'automatisation pour fours de traitement thermique.',
       },
@@ -175,7 +172,7 @@ export const resumeConfig: ResumeConfig = {
       id: 'msk',
       company: { fr: 'MSK Covertech Group' },
       role: { fr: 'Automaticien' },
-      period: { fr: 'Février 2015 - Octobre 2015' },
+      period: { fr: 'Fév. 2015 - Oct. 2015' },
       description: {
         fr: 'Développement et mise en service de machines industrielles de suremballage.',
       },
