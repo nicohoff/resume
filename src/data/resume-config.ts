@@ -95,7 +95,7 @@ export const resumeConfig: ResumeConfig = {
       company: { fr: 'Bouygues Energies & Services' },
       role: { fr: 'Développeur SCADA' },
       type: { fr: 'CDI' },
-      period: { fr: 'Depuis 2021'},
+      period: { fr: '2021 - ...'},
       description: {
         fr: 'Gestion d\'infrastructures : tunnels routiers / autoroutiers, GTB',
       },
