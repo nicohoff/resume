@@ -24,14 +24,14 @@ export const resumeConfig: ResumeConfig = {
     },
   },
   contact: [
+    { type: 'location', label: 'Chambéry / Albertville' },
     { type: 'phone', label: '+33 6 77 53 60 19' },
     { type: 'email', label: 'nicolashoffmann@hotmail.com' },
-    {
-      type: 'linkedin',
+    { type: 'linkedin',
       label: 'Nicolas Hoffmann',
       href: 'https://www.linkedin.com/in/nicolas-hoffmann-scada',
     },
-    { type: 'location', label: 'Chambéry / Albertville' },
+    { type: 'github', label: 'nicoff-dev', href: 'https://github.com/nicoff-dev' }
   ],
   skills: [
     {
