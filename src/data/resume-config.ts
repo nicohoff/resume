@@ -42,7 +42,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Fluent', fr: 'Courant' },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Fluent', fr: 'Courant' } },
       ],
     },
     {
@@ -360,6 +360,4 @@ export const resumeConfig: ResumeConfig = {
       downloadPdf: { fr: 'Télécharger le PDF', en: 'Download PDF' },
     },
   },
-}
-
 }
