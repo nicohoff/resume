@@ -86,7 +86,7 @@ export const resumeConfig: ResumeConfig = {
       items: [
         {
           name: {
-            en: 'Communication, Adapatability, Curiosity, Technical Documentation',
+            en: 'Communication, Adaptability, Curiosity, Technical Documentation',
             fr: 'Communication, adaptabilité, curiosité, documentation technique',
           },
         },
