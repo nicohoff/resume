@@ -20,7 +20,7 @@ export const resumeConfig: ResumeConfig = {
   },
   languages: {
     default: 'fr',
-    available: ['en,''fr'],
+    available: ['en','fr'],
     labels: {
       en: 'EN',
       fr: 'FR',
