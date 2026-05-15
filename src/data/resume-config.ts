@@ -205,7 +205,7 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           fr: [
-            'Développement et maintenance de systèmes SCADA et d'automatismes',
+            'Développement et maintenance de systèmes SCADA et d\'automatismes',
             'Gestion de tickets JIRA et astreintes',
             'Tests en plateforme et sur site',
             'Paramétrage de caméras et intégration sur serveur Milestone',
